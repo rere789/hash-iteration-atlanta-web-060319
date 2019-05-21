@@ -12,11 +12,9 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-  happy_birthday.each do |kids_name, age|
-    if age <= 12
-      happy_birthday
-    else 
-      puts "You are too old for this."
+  birthday_kids.collect do |kids_name, age|
+    if age <= 12 
+      puts 
 end 
 
 
